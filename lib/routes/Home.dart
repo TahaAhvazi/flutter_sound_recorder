@@ -42,7 +42,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future record() async {
     if (!isRecorderReady) return;
-    await recorder.startRecorder(toFile: 'audio');
+    await recorder.startRecorder(
+        toFile: '/storage/emulated/0/Download/myVoice.aac');
   }
 
   Future stop() async {
