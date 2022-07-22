@@ -1,6 +1,6 @@
 # fl_recorder
 
-A new Flutter project.
+A new Flutter project to learn how you can work and use a mobile microphone
 
 ## Getting Started
 
